@@ -1,0 +1,13 @@
+{
+  "name": "Python Dev Container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "airflow-webserver",
+  "workspaceFolder": "/opt/airflow",
+  "remoteUser": "airflow",
+  
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.python-debugger"
+  ],
+}
